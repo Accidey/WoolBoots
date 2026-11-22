@@ -5,6 +5,7 @@ import com.xulai.woolboots.events.WoolBootsEvents;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.NeoForge;
 import org.slf4j.Logger;
 
@@ -19,6 +20,8 @@ public class WoolBoots {
         WoolBootsComponents.DATA_COMPONENT_TYPES.register(modEventBus);
         WoolBootsRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         WoolBootsRecipes.INGREDIENT_TYPES.register(modEventBus);
+
+        modContainer.registerConfig(ModConfig.Type.COMMON, WoolBootsConfig.SPEC);
 
         NeoForge.EVENT_BUS.register(WoolBootsEvents.class);
     }

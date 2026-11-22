@@ -10,12 +10,12 @@ authors="Xulai"
 displayTest="IGNORE_ALL_VERSION"
 description='''
 Xulai Wool Boots - craft a wool sole onto any pair of boots with 5 wool in a boat shape, and the boots stop making step vibrations while walking or sneaking.
-Wearing boots with a wool sole removes step and landing vibrations while walking or sneaking, but sprinting still makes noise that wardens and sculk sensors can hear.
+Wearing boots with a wool sole silences walking and sneaking steps. Sprinting and falling are audible by default, but each can be silenced in the config.
 Enchantments, durability and armor set bonuses of the original boots are fully kept: the wool sole is an upgrade added on top of them, just like an enchantment.
 Vanilla boots and modded boots are all supported, and the tooltip of the boots shows whether they have a wool sole.
 
 羊毛靴子：用 5 个羊毛摆成船的形状，中间放上一双靴子，就能给这双靴子加上羊毛鞋底。
-穿上带羊毛鞋底的靴子后，行走与潜行时不会产生振动；疾跑仍会发出声音，被监守者和幽匿感测体察觉。
+穿上带羊毛鞋底的靴子后，行走与潜行时不会产生振动；疾跑与摔落默认仍会被听到，可在配置中分别关闭。
 原靴子的附魔、耐久与套装效果全部保留，羊毛鞋底只是叠加在上面的增强，效果类似附魔。
 原版靴子与模组靴子都可以合成，物品 Tooltip 会显示是否带有羊毛鞋底。
 '''
