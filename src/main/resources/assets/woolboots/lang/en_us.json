@@ -1,5 +1,5 @@
 {
   "woolboots.tooltip.sole": "Wool Sole",
-  "woolboots.tooltip.silent": "Walking, running and landing make no vibrations",
-  "woolboots.tooltip.detect": "Wardens and sculk sensors cannot detect you"
+  "woolboots.tooltip.silent": "Walking and sneaking make no vibrations",
+  "woolboots.tooltip.detect": "Sprinting can still be heard by wardens and sculk sensors"
 }

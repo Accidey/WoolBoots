@@ -22,6 +22,9 @@ public final class WoolBootsEvents {
         if (!(event.getCause() instanceof LivingEntity entity)) {
             return;
         }
+        if (entity.isSprinting()) {
+            return;
+        }
         if (WoolBootsComponents.hasWoolSole(entity.getItemBySlot(EquipmentSlot.FEET))) {
             event.setCanceled(true);
         }
